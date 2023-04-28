@@ -50,10 +50,12 @@
     </section>
 
     <section class="team" >
-      <div class="my-32 p-8 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center ">
-        <h2 class="title font-bold text-4xl">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        <p class="text text-sky-500 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        <div class="card-holder my-10 text-slate-900 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+      <div class="mt-32 p-8 py-16 bg-slate-900 text-white flex flex-col gap-12 justify-center items-center ">
+        <h2 class="title font-bold text-2xl md:text-4xl">“Best practices” don’t actually work.</h2>
+        <p class="text text-sky-300 md:text-xl max-w-6xl text-center">
+          I’ve written a few thousand words on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+        <div class="card-holder my-10 text-slate-900 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
           <div class="card border-2 border-solid border-gray-300 bg-gray-300 p-6 rounded-lg flex gap-6 flex-col justify-center items-center transition duration-300 hover:bg-transparent hover:text-white">
             <img src="dist/images/undraw_fingerprint_login_re_t71l.svg"alt="">
             <h3 class="font-bold text-2xl">Security</h3>
@@ -77,6 +79,72 @@
         </div>
       </div>
     </section>
+    <section class="bg-orange-500 ">
+      <div class="container p-8 flex flex-col gap-4 md:flex-row justify-between items-center text-white mx-auto">
+        <h1 class="font-bold text-3xl lg:text-4xl " >Move even faster with Tailwind UI.</h1>
+        <a href="#" class="btn btn-primary py-3 px-6 w-fit font-medium " > Start Now</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container py-10 px-8 mx-auto flex flex-col md:flex-row gap-12 justify-between items-center text-slate-700">
+        <div class="copyright flex flex-col gap-10">
+          <h5 class="font-bold">Copyright © 2023, All Rights Reserved</h5>
+          <img src="dist/images/tailwindcss-logotype.svg" alt="logo">
+          <ul class="flex md:flex-row gap-1 justify-between items-center font-bold text-white">
+            <li class="bg-slate-800 w-10 h-10  rounded-full">
+              <a href="#" class="w-full h-full  flex justify-center items-center  ">
+                F
+              </a>
+            </li>
+            <li class="bg-slate-800 w-10 h-10  rounded-full">
+              <a href="#" class="w-full h-full  flex justify-center items-center  ">
+                I
+              </a>
+            </li>
+            <li class="bg-slate-800 w-10 h-10  rounded-full">
+              <a href="#" class="w-full h-full  flex justify-center items-center  ">
+                L
+              </a>
+            </li>
+            <li class="bg-slate-800 w-10 h-10 rounded-full">
+              <a href="#" class="w-full h-full  flex justify-center items-center  ">
+                T
+              </a>
+            </li>
+            <li class="bg-slate-800 w-10 h-10 rounded-full">
+              <a href="#" class="w-full h-full  flex justify-center items-center  ">
+                Y
+              </a>
+            </li>
+          </ul>          
+        </div>
+        <div class="links flex flex-row justify-around md:justify-center w-full md:gap-36">
+          <ul class='flex flex-col gap-1 justify-between items-start'>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <ul  class='flex flex-col gap-1 justify-between items-start'>
+            <li><a href="#">Imprint</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Credits</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-10 items-center">
+          <form action="#">
+              <div class="flex space-x-3">
+                  <input type="text" placeholder="Subscribe to Newsletter" class="flex-1 py-2 px-6 rounded-full border border-slate-900 ">
+                  <button class="btn btn-primary px-6 ">Go</button>
+              </div>
+          </form>
+          <div class="hidden md:block">
+              Copyright &copy; 2023, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
