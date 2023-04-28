@@ -1,0 +1,38 @@
+/* custom css */
+
+/*  component  */
+.btn{
+  transition: 500ms ease-in-out all;
+  -webkit-transition: 300ms ease-in-out all;
+  -moz-transition: 500ms ease-in-out all;
+  -ms-transition: 500ms ease-in-out all;
+  -o-transition: 500ms ease-in-out all;
+  background-color:  rgb(247, 156, 82);
+  border-radius: 120px;
+  color: white;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  -ms-border-radius: 120px;
+  -o-border-radius: 120px;
+}
+.btn:hover{
+  background-color: rgb(31 73 115);
+  color: white;
+}
+/*  component  */
+
+/*  */
+/* header */
+header.header ul li{
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+header.header ul li:is(:hover ,:focus-visible){
+  color: rgb(50, 130, 223);
+}
+/* header */
+
+/* custom css */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/style.css">
+  <link rel="stylesheet" href="./dist/custom.css">
+  <link rel="shortcut icon" href="./dist/images/tailwindcss-mark.svg" sizes="18*18" >
+  <title>Tailwind css</title>
+</head>
+<body>
+  <header class="header container p-8 mx-auto">
+    <div class="flex items-center justify-between">
+      <div class="logo">
+        <img src="./dist/images/tailwindcss-logotype.svg" width="180" alt="logo" class="md:w-48 lg:w-52">
+      </div>
+      <ul class="hidden lg:flex navbar space-x-6 text-slate-700 font-medium uppercase ">
+        <li class="nav-link">
+          <a href="#">home</a>
+        </li>
+        <li class="nav-link">
+          <a href="#">about</a>
+        </li>
+        <li class="nav-link">
+          <a href="#">contact</a>
+        </li>
+        <li class="nav-link">
+          <a href="#">social</a>
+        </li>
+        <li class="nav-link">
+          <a href="#">pricing</a>
+        </li>
+        <li class="btn">
+          <a href="#" class="btn btn-primary py-3 px-6" > Call Me</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section id="hero" class="p-8 mx-auto container flex gap-8 flex-col lg:flex-row justify-between items-center">
+      <div class="contant lg:w-1/2 flex flex-col justify-center items-center text-center lg:items-start lg:text-start">
+        <h1 class="font-bold text-3xl md:text-5xl my-8" >Rapidly build modern websites without ever leaving your HTML.</h1>
+        <p class="md:text-xl mb-7 text-gray-600">A utility-first CSS framework packed with classes like that can be composed to build any design, directly in your markup.</p>
+        <a href="#" class="btn btn-primary py-3 px-6 w-fit font-medium" > Call Me</a>
+      </div>
+      <figure class="img lg:w-1/2 flex justify-center">
+        <img src="./dist/images/undraw_profile_pic_re_iwgo.svg" alt="">
+      </figure>
+    </section>
+
+    <section class="team" >
+      <div class="my-32 p-8 bg-slate-900 text-white flex flex-col gap-8 justify-center items-center ">
+        <h2 class="title font-bold text-4xl">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        <p class="text text-sky-500 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <div class="card-holder my-10 text-slate-900 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+          <div class="card border-2 border-solid border-gray-300 bg-gray-300 p-6 rounded-lg flex gap-6 flex-col justify-center items-center transition duration-300 hover:bg-transparent hover:text-white">
+            <img src="dist/images/undraw_fingerprint_login_re_t71l.svg"alt="">
+            <h3 class="font-bold text-2xl">Security</h3>
+            <p class="text text-sky-500 text-xl">Lorem ipsum, dolor sit amet consectetur</p>
+          </div>
+          <div class="card border-2 border-solid border-gray-300 bg-gray-300 p-6 rounded-lg flex gap-6 flex-col justify-center items-center transition duration-300 hover:bg-transparent hover:text-white">
+            <img src="dist/images/undraw_speed_test_re_pe1f.svg"alt="">
+            <h3 class="font-bold text-2xl">Speed</h3>
+            <p class="text text-sky-500 text-xl">eos quo odit molestias, iste, temporibus nobis nisi. Quidem quasi quaerat odio?</p>
+          </div>
+          <div class="card border-2 border-solid border-gray-300 bg-gray-300 p-6 rounded-lg flex gap-6 flex-col justify-center items-center transition duration-300 hover:bg-transparent hover:text-white">
+            <img src="dist/images/undraw_search_engines_ij7q.svg"alt="">
+            <h3 class="font-bold text-2xl">Search</h3>
+            <p class="text text-sky-500 text-xl">Lorem ipsum, dolor sit amet consectetur adipisicnisi. Quidem quasi quaerat odio?</p>
+          </div>
+          <div class="card border-2 border-solid border-gray-300 bg-gray-300 p-6 rounded-lg flex gap-6 flex-col justify-center items-center transition duration-300 hover:bg-transparent hover:text-white">
+            <img src="dist/images/undraw_profile_pic_re_iwgo.svg"alt="">
+            <h3 class="font-bold text-2xl">Profile</h3>
+            <p class="text text-sky-500 text-xl">Lorem ipsum, dolor iste, temporibus nobis nisi. Quidem quasi quaerat odio?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
