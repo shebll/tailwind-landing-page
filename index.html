@@ -35,9 +35,38 @@
           <a href="#" class="btn btn-primary py-3 px-6" > Call Me</a>
         </li>
       </ul>
+      <button class="btn-toggle lg:hidden">
+        <img class="w-7" src="./dist/images/menu-line.png" alt="">
+      </button>
+    </div>
+    <div class="menu lg:hidden w-100%">
+      <div id="mobile-menu" class="absolute right-6 left-6 tw-100% ">
+        <ul class="bg-slate-900 font-medium text-zinc-50 w-100% flex hidden flex-col py-8 px-6 uppercase gap-4 items-center shadow-xl ">
+          <li class="nav-link w-100">
+            <a class="w-100" href="#">home</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">about</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">contact</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">social</a>
+          </li>
+          <li class="nav-link">
+            <a href="#">pricing</a>
+          </li>
+          <li class="btn mt-2">
+            <a href="#" class="btn btn-primary py-3 px-6" > Call Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
+
   <main>
+
     <section id="hero" class="p-8 mx-auto container flex gap-8 flex-col lg:flex-row justify-between items-center">
       <div class="contant lg:w-1/2 flex flex-col justify-center items-center text-center lg:items-start lg:text-start">
         <h1 class="font-bold text-3xl md:text-5xl my-8" >Rapidly build modern websites without ever leaving your HTML.</h1>
@@ -79,42 +108,43 @@
         </div>
       </div>
     </section>
+
     <section class="bg-orange-500 ">
       <div class="container p-8 flex flex-col gap-4 md:flex-row justify-between items-center text-white mx-auto">
         <h1 class="font-bold text-3xl lg:text-4xl " >Move even faster with Tailwind UI.</h1>
         <a href="#" class="btn btn-primary py-3 px-6 w-fit font-medium " > Start Now</a>
       </div>
     </section>
-
+    <!--footer  -->
     <footer>
-      <div class="container py-10 px-8 mx-auto flex flex-col lg:flex-row gap-12 justify-between items-center text-slate-700">
+      <div class="container py-10 px-8 mx-auto flex flex-col-reverse lg:flex-row gap-12 justify-between items-center text-slate-700">
         <div class="copyright flex flex-col gap-10">
           <h5 class="font-bold">Copyright © 2023, All Rights Reserved</h5>
           <img src="dist/images/tailwindcss-logotype.svg" alt="logo">
           <ul class="flex md:flex-row gap-1 justify-between items-center font-bold text-white">
             <li class="bg-slate-800 w-10 h-10  rounded-full">
               <a href="#" class="w-full h-full  flex justify-center items-center  ">
-                F
+                <img src="./dist/images/facebook-fill.png" alt="">
               </a>
             </li>
             <li class="bg-slate-800 w-10 h-10  rounded-full">
               <a href="#" class="w-full h-full  flex justify-center items-center  ">
-                I
+                <img src="./dist/images/youtube-fill.png" alt="">
               </a>
             </li>
             <li class="bg-slate-800 w-10 h-10  rounded-full">
               <a href="#" class="w-full h-full  flex justify-center items-center  ">
-                L
+                <img src="./dist/images/linkedin-fill.png" alt="">
               </a>
             </li>
             <li class="bg-slate-800 w-10 h-10 rounded-full">
               <a href="#" class="w-full h-full  flex justify-center items-center  ">
-                T
+                <img src="./dist/images/github-fill.png" alt="">
               </a>
             </li>
             <li class="bg-slate-800 w-10 h-10 rounded-full">
               <a href="#" class="w-full h-full  flex justify-center items-center  ">
-                Y
+                <img  src="./dist/images/instagram-line.png" alt="">
               </a>
             </li>
           </ul>          
@@ -145,6 +175,8 @@
         </div>
       </div>
     </footer>
+    <!--footer  -->
   </main>
+  <script src="./dist/js/app.js"></script>
 </body>
 </html>
